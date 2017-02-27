@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:text="TOP CONTENT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:elegantTextHeight="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="42dip" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView10"
+            android:layout_weight="0.3"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="10dp"
+            android:text="1st"
+            android:textColor="@android:color/background_light"
+            android:textSize="32dip"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:id="@+id/imageView9"
+            android:padding="0dp"
+            android:layout_weight="0.6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="2nd"
+            android:textColor="@android:color/background_light"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="39dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:id="@+id/imageView6"
+            android:layout_weight="0.9"
+            android:layout_marginLeft="10dp"
+            android:text="3rd"
+            android:textColor="@android:color/background_light"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="49dip" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/imageView5"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="BOTTOM CONTENT"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/background_light"
+        android:textSize="34dip" />
+</LinearLayout>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.goldenblue.fragmentwithimagesmanual.fragments.FragmentRating"
+    tools:context="com.example.goldenblue.layouts.fragments.FragmentRating"
     android:paddingTop="60dp">
 <LinearLayout
     android:orientation="vertical"

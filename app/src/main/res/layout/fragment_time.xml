@@ -3,7 +3,7 @@
     android:orientation="vertical"
 
     android:layout_width="match_parent"
-    tools:context="com.example.goldenblue.fragmentwithimagesmanual.fragments.FragmentTime"
+    tools:context="com.example.goldenblue.layouts.fragments.FragmentTime"
     android:layout_height="match_parent"
     android:layout_centerInParent="true">
 

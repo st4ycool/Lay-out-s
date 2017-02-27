@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.goldenblue.fragmentwithimagesmanual.fragments.FragmentRating"
+    android:paddingTop="60dp">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="Position 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light"
+        android:textSize="32dip"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ratingBar"
+            android:layout_alignParentBottom="false"
+            android:numStars="5"
+            android:rating="3"
+            android:isIndicator="false"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+            android:text="Position 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/background_light"
+            android:textSize="32dip"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="false"
+            android:elevation="1dp"
+            android:layout_below="@+id/ratingBar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="36dp" />
+
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar4"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/ratingBar"
+            android:layout_alignStart="@+id/ratingBar"
+            android:layout_gravity="center_horizontal"
+            android:rating="3" />
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<TextView
+    android:text="Position 2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:textColor="@android:color/background_light"
+    android:textSize="32dip"
+    android:gravity="center_horizontal"
+    android:layout_centerInParent="false"
+    android:elevation="1dp"
+    android:layout_below="@+id/ratingBar"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="36dp" />
+
+<RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ratingBar4"
+    android:layout_centerVertical="true"
+    android:layout_alignLeft="@+id/ratingBar"
+    android:layout_alignStart="@+id/ratingBar"
+    android:layout_gravity="center_horizontal"
+    android:rating="3" />
+</LinearLayout>
+    </LinearLayout>
